@@ -1,0 +1,11 @@
+COPY Client TO 'C:\taxi\client.csv' WITH CSV HEADER DELIMITER ';';
+COPY Driver TO 'C:\taxi\driver.csv' WITH CSV HEADER DELIMITER ';';
+COPY Discount TO 'C:\taxi\discount.csv' WITH CSV HEADER DELIMITER ';';
+COPY Service_type TO 'C:\taxi\service_type.csv' WITH CSV HEADER DELIMITER ';';
+COPY Tariff TO 'C:\taxi\tariff.csv' WITH CSV HEADER DELIMITER ';';
+COPY Orders TO 'C:\taxi\orders.csv' WITH CSV HEADER DELIMITER ';';
+COPY Service TO 'C:\taxi\service.csv' WITH CSV HEADER DELIMITER ';';
+COPY Model TO 'C:\taxi\model.csv' WITH CSV HEADER DELIMITER ';';
+COPY Transport TO 'C:\taxi\transport.csv' WITH CSV HEADER DELIMITER ';';
+COPY Ride TO 'C:\taxi\ride.csv' WITH CSV HEADER DELIMITER ';';
+COPY Feedback TO 'C:\taxi\feedback.csv' WITH CSV HEADER DELIMITER ';';
